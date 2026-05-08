@@ -1,0 +1,29 @@
+aid: kameleoon
+url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/apis.yml
+name: Kameleoon
+x-type: company
+description: >-
+  Kameleoon is an AI-powered experimentation and personalization platform offering web, mobile, server-side, and feature-flag testing with predictive targeting.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - A/B Testing
+  - Experimentation
+  - Personalization
+  - AI
+  - Server-Side
+created: '2026-05-08'
+modified: '2026-05-08'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.kameleoon.com/
+  - type: Plans
+    url: plans/kameleoon-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/kameleoon-rate-limits.yml
+  - type: FinOps
+    url: finops/kameleoon-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
