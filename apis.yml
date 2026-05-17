@@ -1,7 +1,7 @@
 aid: kameleoon
 url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/apis.yml
 name: Kameleoon
-x-type: company
+kind: company
 description: >-
   Kameleoon is an experimentation, personalization, feature flag, and AI-driven optimization platform for product and marketing teams.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
