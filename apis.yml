@@ -58,6 +58,10 @@ apis:
       - type: Documentation
         url: https://developers.kameleoon.com/apis/recommendation-api/
 common:
+  - type: GitHubOrganization
+    url: https://github.com/Kameleoon
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/kameleoon
   - type: Website
     url: https://www.kameleoon.com/
   - type: Documentation
