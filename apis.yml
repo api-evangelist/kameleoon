@@ -4,7 +4,7 @@ name: Kameleoon
 kind: company
 description: >-
   Kameleoon is an experimentation, personalization, feature flag, and AI-driven optimization platform for product and marketing teams.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Experimentation
   - AB Testing
@@ -19,7 +19,7 @@ apis:
     name: Kameleoon Automation API
     description: >-
       Kameleoon Automation API (REST) for programmatically managing experiments, feature flags, and configuration. Limited to roughly a dozen calls per minute per account.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developers.kameleoon.com/apis/automation-api/
     baseURL: https://api.kameleoon.com/automation/v1
     tags:
@@ -33,7 +33,7 @@ apis:
     name: Kameleoon Data API
     description: >-
       Kameleoon Data API (REST) for high-volume server-to-server data exchange — visitor data, custom data, and offline conversions. Designed for millions of calls per minute.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developers.kameleoon.com/apis/data-api/
     baseURL: https://data.kameleoon.io
     tags:
@@ -47,7 +47,7 @@ apis:
     name: Kameleoon Product Recommendation API
     description: >-
       Kameleoon Product Recommendation API (REST) for managing product catalogs and serving AI-driven recommendations.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developers.kameleoon.com/apis/recommendation-api/
     baseURL: https://api.kameleoon.com/recommendation/v1
     tags:
