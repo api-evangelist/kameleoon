@@ -72,7 +72,7 @@ common:
     url: rate-limits/kameleoon-rate-limits.yml
   - type: FinOps
     url: finops/kameleoon-finops.yml
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://developers.kameleoon.com/llms.txt
 maintainers:
   - FN: Kin Lane
