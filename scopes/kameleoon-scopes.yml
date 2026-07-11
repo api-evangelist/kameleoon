@@ -1,0 +1,19 @@
+generated: '2026-07-11'
+method: derived
+source: openapi/kameleoon-openapi.yml
+docs: https://docs.kameleoon.com/developer-docs/apis/automation-api-rest/get-started/get-started
+note: >-
+  Kameleoon's Automation API uses OAuth 2.0 client credentials and authorization
+  code flows but does not document any OAuth scopes; access is tied to the
+  Kameleoon user account behind the API credentials
+  (https://docs.kameleoon.com/developer-docs/apis/automation-api-rest/get-started/get-started).
+schemes:
+- name: oauth2
+  source: openapi/kameleoon-openapi.yml
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.kameleoon.com/oauth/token
+  - flow: authorizationCode
+    authorizationUrl: https://api.kameleoon.com/oauth/authorize
+    tokenUrl: https://api.kameleoon.com/oauth/token
+scopes: []

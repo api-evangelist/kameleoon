@@ -58,6 +58,8 @@ apis:
       - type: Documentation
         url: https://developers.kameleoon.com/apis/recommendation-api/
 common:
+  - type: OAuthScopes
+    url: scopes/kameleoon-scopes.yml
   - type: GitHubOrganization
     url: https://github.com/Kameleoon
   - type: LinkedIn
@@ -74,6 +76,8 @@ common:
     url: finops/kameleoon-finops.yml
   - type: LlmsText
     url: https://developers.kameleoon.com/llms.txt
+  - type: Blog
+    url: https://www.kameleoon.com/blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
