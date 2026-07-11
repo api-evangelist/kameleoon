@@ -58,6 +58,12 @@ apis:
       - type: Documentation
         url: https://developers.kameleoon.com/apis/recommendation-api/
 common:
+  - type: TrustCenter
+    url: security/kameleoon-trust-center.yml
+  - type: DomainSecurity
+    url: security/kameleoon-domain-security.yml
+  - type: Authentication
+    url: authentication/kameleoon-authentication.yml
   - type: OAuthScopes
     url: scopes/kameleoon-scopes.yml
   - type: GitHubOrganization

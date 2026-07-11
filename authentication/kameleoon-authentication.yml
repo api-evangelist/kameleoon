@@ -1,0 +1,31 @@
+generated: '2026-07-11'
+method: derived
+source: openapi/kameleoon-openapi.yml
+summary:
+  types:
+  - http
+  - oauth2
+  oauth2_flows:
+  - authorizationCode
+  - clientCredentials
+schemes:
+- name: bearerAuth
+  type: http
+  scheme: bearer
+  bearerFormat: OAuth 2.0 access token
+  description: OAuth 2.0 access token obtained from /oauth/token, supplied as a Bearer token
+    in the Authorization header.
+  sources:
+  - openapi/kameleoon-openapi.yml
+- name: oauth2
+  type: oauth2
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.kameleoon.com/oauth/token
+    scopes: 0
+  - flow: authorizationCode
+    authorizationUrl: https://api.kameleoon.com/oauth/authorize
+    tokenUrl: https://api.kameleoon.com/oauth/token
+    scopes: 0
+  sources:
+  - openapi/kameleoon-openapi.yml
