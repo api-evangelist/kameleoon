@@ -1,0 +1,18 @@
+{
+  "repo": "kameleoon",
+  "feeds": [
+    {
+      "source": "https://www.kameleoon.com/blog",
+      "feed_url": "https://www.kameleoon.com/blog",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://developers.kameleoon.com/llms.txt",
+      "error": "HTTPError"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 5
+}
