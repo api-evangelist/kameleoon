@@ -58,6 +58,8 @@ apis:
       - type: Documentation
         url: https://developers.kameleoon.com/apis/recommendation-api/
 common:
+  - type: AgenticAccess
+    url: agentic-access/kameleoon-agentic-access.yml
   - type: TrustCenter
     url: security/kameleoon-trust-center.yml
   - type: DomainSecurity
