@@ -4,7 +4,20 @@ name: Kameleoon
 kind: company
 description: >-
   Kameleoon is an experimentation, personalization, feature flag, and AI-driven optimization platform for product and marketing teams.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: high
+  source:
+  - plans
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kameleoon.png
 tags:
   - Experimentation
   - AB Testing
@@ -15,48 +28,80 @@ created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.19'
 apis:
-  - aid: kameleoon:kameleoon-automation-api
-    name: Kameleoon Automation API
-    description: >-
-      Kameleoon Automation API (REST) for programmatically managing experiments, feature flags, and configuration. Limited to roughly a dozen calls per minute per account.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://developers.kameleoon.com/apis/automation-api/
-    baseURL: https://api.kameleoon.com/automation/v1
-    tags:
-      - Experimentation
-      - Automation
-      - REST
-    properties:
-      - type: Documentation
-        url: https://developers.kameleoon.com/apis/automation-api/
-  - aid: kameleoon:kameleoon-data-api
-    name: Kameleoon Data API
-    description: >-
-      Kameleoon Data API (REST) for high-volume server-to-server data exchange — visitor data, custom data, and offline conversions. Designed for millions of calls per minute.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://developers.kameleoon.com/apis/data-api/
-    baseURL: https://data.kameleoon.io
-    tags:
-      - Experimentation
-      - Data
-      - REST
-    properties:
-      - type: Documentation
-        url: https://developers.kameleoon.com/apis/data-api/
-  - aid: kameleoon:kameleoon-recommendation-api
-    name: Kameleoon Product Recommendation API
-    description: >-
-      Kameleoon Product Recommendation API (REST) for managing product catalogs and serving AI-driven recommendations.
-    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
-    humanURL: https://developers.kameleoon.com/apis/recommendation-api/
-    baseURL: https://api.kameleoon.com/recommendation/v1
-    tags:
-      - Recommendations
-      - AI
-      - REST
-    properties:
-      - type: Documentation
-        url: https://developers.kameleoon.com/apis/recommendation-api/
+- aid: kameleoon:kameleoon-automation-api
+  name: Kameleoon Automation API
+  description: >-
+    Kameleoon Automation API (REST) for programmatically managing experiments, feature flags, and configuration.
+    Limited to roughly a dozen calls per minute per account.
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://developers.kameleoon.com/apis/automation-api/
+  baseURL: https://api.kameleoon.com/automation/v1
+  tags:
+  - Experimentation
+  - Automation
+  - REST
+  properties:
+  - type: Documentation
+    url: https://developers.kameleoon.com/apis/automation-api/
+- aid: kameleoon:kameleoon-data-api
+  name: Kameleoon Data API
+  description: >-
+    Kameleoon Data API (REST) for high-volume server-to-server data exchange — visitor data, custom data,
+    and offline conversions. Designed for millions of calls per minute.
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://developers.kameleoon.com/apis/data-api/
+  baseURL: https://data.kameleoon.io
+  tags:
+  - Experimentation
+  - Data
+  - REST
+  properties:
+  - type: Documentation
+    url: https://developers.kameleoon.com/apis/data-api/
+- aid: kameleoon:kameleoon-recommendation-api
+  name: Kameleoon Product Recommendation API
+  description: >-
+    Kameleoon Product Recommendation API (REST) for managing product catalogs and serving AI-driven recommendations.
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+  humanURL: https://developers.kameleoon.com/apis/recommendation-api/
+  baseURL: https://api.kameleoon.com/recommendation/v1
+  tags:
+  - Recommendations
+  - AI
+  - REST
+  properties:
+  - type: Documentation
+    url: https://developers.kameleoon.com/apis/recommendation-api/
+- aid: kameleoon:kameleoon-experiments-api
+  name: Kameleoon Experiments API
+  description: Manage Kameleoon experiments.
+  humanURL: https://developers.kameleoon.com/apis/automation-api/
+  baseURL: https://api.kameleoon.com/automation/v1
+  tags:
+  - Experiments
+  properties:
+  - type: OpenAPI
+    url: openapi/kameleoon-experiments-api-openapi.yml
+- aid: kameleoon:kameleoon-oauth-api
+  name: Kameleoon OAuth API
+  description: OAuth 2.0 authorization and token endpoints.
+  humanURL: https://developers.kameleoon.com/apis/automation-api/
+  baseURL: https://api.kameleoon.com/automation/v1
+  tags:
+  - OAuth
+  properties:
+  - type: OpenAPI
+    url: openapi/kameleoon-oauth-api-openapi.yml
+- aid: kameleoon:kameleoon-personalizations-api
+  name: Kameleoon Personalizations API
+  description: Manage Kameleoon personalizations.
+  humanURL: https://developers.kameleoon.com/apis/automation-api/
+  baseURL: https://api.kameleoon.com/automation/v1
+  tags:
+  - Personalizations
+  properties:
+  - type: OpenAPI
+    url: openapi/kameleoon-personalizations-api-openapi.yml
 common:
   - type: AgenticAccess
     url: agentic-access/kameleoon-agentic-access.yml
