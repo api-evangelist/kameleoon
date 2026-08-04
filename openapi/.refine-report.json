@@ -1,0 +1,18 @@
+{
+  "provider": "kameleoon",
+  "sources": [
+    "kameleoon-experiments-api-openapi.yml",
+    "kameleoon-oauth-api-openapi.yml",
+    "kameleoon-personalizations-api-openapi.yml"
+  ],
+  "outputs": [
+    "kameleoon-experiments-api-openapi.yml",
+    "kameleoon-oauth-api-openapi.yml",
+    "kameleoon-personalizations-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
