@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Kameleoon Automation Experiments Personalizations API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Personalizations",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List personalizations",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://api.kameleoon.com/personalizations",
+            "auth": {
+              "type": "bearer",
+              "token": "{{bearerToken}}"
+            }
+          },
+          "docs": "List Kameleoon personalizations for the authenticated account."
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

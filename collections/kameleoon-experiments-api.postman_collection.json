@@ -1,0 +1,225 @@
+{
+  "item": [
+    {
+      "id": "c056b478-4a6b-4b35-8d6b-afb7e7b18cfd",
+      "name": "Experiments",
+      "description": {
+        "content": "Manage Kameleoon experiments.",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "17021be8-837c-44a8-87d8-699a774af027",
+          "name": "List experiments",
+          "request": {
+            "name": "List experiments",
+            "description": {
+              "content": "List Kameleoon experiments for the authenticated account.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "experiments"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{bearerToken}}"
+                }
+              ]
+            }
+          },
+          "response": [
+            {
+              "id": "64f5ec2b-e890-418f-9f97-f151d9da1ba2",
+              "name": "List of experiments.",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "experiments"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "6eb6c197-9a4e-431f-b869-1b7f8fa845c2",
+          "name": "Create an experiment",
+          "request": {
+            "name": "Create an experiment",
+            "description": {
+              "content": "Create a new Kameleoon experiment.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "experiments"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{bearerToken}}"
+                }
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "<object>",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "952f433e-2d44-4591-9456-98adc6578bf2",
+              "name": "Created experiment.",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "experiments"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: bearer",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "Bearer <token>"
+                  },
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "<object>",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://api.kameleoon.com",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "b20fba49-9632-4174-b965-61eebe6f2769",
+    "name": "Kameleoon Automation Experiments API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "REST API for programmatically managing Kameleoon experiments, personalizations, and related account resources. Authentication is performed with OAuth 2.0 (Client Credentials for internal use, Authorization Code for third-party integrations) and tokens are presented as Bearer credentials on subsequent API calls.\n\nContact Support:\n Name: Kameleoon Developers",
+      "type": "text/plain"
+    }
+  }
+}
