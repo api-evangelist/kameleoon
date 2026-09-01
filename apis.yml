@@ -32,7 +32,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kameleoon.png
 tags:
   - Experimentation
-  - AB Testing
+  - A/B Testing
   - Personalization
   - Feature Flags
   - Artificial Intelligence
