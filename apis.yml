@@ -104,18 +104,6 @@ apis:
   properties:
   - type: OpenAPI
     url: openapi/kameleoon-experiments-api-openapi.yml
-- aid: kameleoon:kameleoon-oauth-api
-  name: Kameleoon OAuth API
-  description: OAuth 2.0 authorization and token endpoints.
-  humanURL: https://developers.kameleoon.com/apis/automation-api/
-  baseURL: https://api.kameleoon.com/automation/v1
-  tags:
-  - Authentication
-  tags_raw:
-  - OAuth
-  properties:
-  - type: OpenAPI
-    url: openapi/kameleoon-oauth-api-openapi.yml
 - aid: kameleoon:kameleoon-personalizations-api
   name: Kameleoon Personalizations API
   description: Manage Kameleoon personalizations.
@@ -126,6 +114,16 @@ apis:
   properties:
   - type: OpenAPI
     url: openapi/kameleoon-personalizations-api-openapi.yml
+- aid: kameleoon:kameleoon-oauth-api
+  name: Kameleoon O Auth API
+  description: OAuth 2.0 authorization and token endpoints.
+  humanURL: https://developers.kameleoon.com/apis/automation-api/
+  baseURL: https://api.kameleoon.com/automation/v1
+  tags:
+  - OAuth
+  properties:
+  - type: OpenAPI
+    url: openapi/kameleoon-oauth-api-openapi.yml
 common:
   - type: AgenticAccess
     url: agentic-access/kameleoon-agentic-access.yml
