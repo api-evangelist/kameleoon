@@ -120,6 +120,8 @@ apis:
   humanURL: https://developers.kameleoon.com/apis/automation-api/
   baseURL: https://api.kameleoon.com/automation/v1
   tags:
+  - Authentication
+  tags_raw:
   - OAuth
   properties:
   - type: OpenAPI
