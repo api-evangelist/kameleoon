@@ -1,6 +1,6 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: Kameleoon Automation Experiments OAuth API
+  title: Kameleoon Automation O Auth API
   description: REST API for programmatically managing Kameleoon experiments, personalizations, and related account resources. Authentication is performed with OAuth 2.0 (Client Credentials for internal use, Authorization Code for third-party integrations) and tokens are presented as Bearer credentials on subsequent API calls.
   version: 1.0.0
   termsOfService: https://www.kameleoon.com/en/legal-notice
