@@ -1,52 +1,20 @@
 generated: '2026-10-14'
 method: searched
 checked:
+- datadog/integrations/datadog-integration-edges.yml
 - https://hightouch.com/docs/destinations/kameleoon
 - https://vendor-list.consensu.org/v3/vendor-list.json
 - https://www.twilio.com/docs/segment/connections/destinations/catalog/actions-kameleoon
 marketplace_apps: []
 edges:
-- partner_name: IAB Europe TCF Global Vendor List
-  partner: null
-  partner_match: domain
-  type: contract
-  channel: standard-directory
-  relationship: standard-participant
-  direction: partner-built
-  evidence: https://vendor-list.consensu.org/v3/vendor-list.json
-  contract_reference:
-    register: IAB Europe TCF Global Vendor List
-    spec_file: null
-    role: tcf-vendor
-    registered_name: Kameleoon SAS
-    register_id: '820'
-    products:
-    - Kameleoon SAS
-    matched_domain: kameleoon.com
-    api_families:
-    - feature-1
-    - feature-2
-    - purpose-1
-    - purpose-10
-    - purpose-3
-    - purpose-4
-    - purpose-5
-    - purpose-6
-    - purpose-7
-    - purpose-8
-    api_families_basis: TCF purposes, special purposes, features and special features declared on the registration
-    detected_by: sweep-adtech.py
-    detected: '2026-10-14'
-  detected_by: sweep-adtech.py
-  detected: '2026-10-14'
 - partner_name: Twilio Segment
   partner: segment
   partner_match: aggregator
-  marketplace: coverage
+  marketplace: segment-partner-destinations
   channel: partner-built
-  direction: partner-built
-  type: coverage
-  relationship: connector-coverage
+  direction: third-party
+  type: marketplace
+  relationship: platform-app
   evidence: https://www.twilio.com/docs/segment/connections/destinations/catalog/actions-kameleoon
   coverage_role:
   - destination
@@ -89,6 +57,56 @@ edges:
       - upsert
   detected_by: sweep-cdp.py
   first_seen: '2026-10-14'
+- partner_name: IAB Europe TCF Global Vendor List
+  partner: null
+  partner_match: domain
+  type: contract
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://vendor-list.consensu.org/v3/vendor-list.json
+  contract_reference:
+    register: IAB Europe TCF Global Vendor List
+    spec_file: null
+    role: tcf-vendor
+    registered_name: Kameleoon SAS
+    register_id: '820'
+    products:
+    - Kameleoon SAS
+    matched_domain: kameleoon.com
+    api_families:
+    - feature-1
+    - feature-2
+    - purpose-1
+    - purpose-10
+    - purpose-3
+    - purpose-4
+    - purpose-5
+    - purpose-6
+    - purpose-7
+    - purpose-8
+    api_families_basis: TCF purposes, special purposes, features and special features declared on the registration
+    detected_by: sweep-adtech.py
+    detected: '2026-10-14'
+  detected_by: sweep-adtech.py
+  detected: '2026-10-14'
+- partner_name: Datadog (own)
+  partner: datadog
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://github.com/DataDog/integrations-extras/tree/master/kameleoon
+  mirror_of: datadog/integrations/datadog-integration-edges.yml
+  apps:
+  - Kameleoon
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Configuration & Deployment
 source:
 - https://hightouch.com/docs/destinations/kameleoon
 - https://www.twilio.com/docs/segment/connections/destinations/catalog/actions-kameleoon
