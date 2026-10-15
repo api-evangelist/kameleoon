@@ -5,6 +5,7 @@ checked:
 - https://hightouch.com/docs/destinations/kameleoon
 - https://vendor-list.consensu.org/v3/vendor-list.json
 - https://www.twilio.com/docs/segment/connections/destinations/catalog/actions-kameleoon
+- shopify/integrations/shopify-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: Twilio Segment
@@ -107,6 +108,24 @@ edges:
   detected: '2026-10-14'
   detected_by: mirror-platform-listings.py
   category: Configuration & Deployment
+- partner_name: Shopify (own)
+  partner: shopify
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://apps.shopify.com/kameleoon-abtesting-app
+  mirror_of: shopify/integrations/shopify-integration-edges.yml
+  apps:
+  - Kameleoon A/B Testing
+  listing_count: 1
+  detected: '2026-10-15'
+  detected_by: mirror-platform-listings.py
+  publisher_verified:
+  - Built for Shopify
 source:
 - https://hightouch.com/docs/destinations/kameleoon
 - https://www.twilio.com/docs/segment/connections/destinations/catalog/actions-kameleoon
