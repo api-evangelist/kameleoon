@@ -1,6 +1,7 @@
 generated: '2026-10-14'
 method: searched
 checked:
+- contentful/integrations/contentful-integration-edges.yml
 - datadog/integrations/datadog-integration-edges.yml
 - https://hightouch.com/docs/destinations/kameleoon
 - https://vendor-list.consensu.org/v3/vendor-list.json
@@ -126,6 +127,22 @@ edges:
   detected_by: mirror-platform-listings.py
   publisher_verified:
   - Built for Shopify
+- partner_name: Contentful (own)
+  partner: contentful
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.contentful.com/marketplace/kameleoon/
+  mirror_of: contentful/integrations/contentful-integration-edges.yml
+  apps:
+  - Kameleoon App
+  listing_count: 1
+  detected: '2026-10-15'
+  detected_by: mirror-platform-listings.py
 source:
 - https://hightouch.com/docs/destinations/kameleoon
 - https://www.twilio.com/docs/segment/connections/destinations/catalog/actions-kameleoon
