@@ -2,10 +2,6 @@
   "repo": "kameleoon",
   "feeds": [
     {
-      "source": "https://developers.kameleoon.com/llms.txt",
-      "error": "URLError"
-    },
-    {
       "source": "https://www.kameleoon.com/blog",
       "feed_url": "https://www.kameleoon.com/blog",
       "title": "",
@@ -13,7 +9,7 @@
       "method": "none"
     }
   ],
-  "fetched": "2026-10-03T12:30:02Z",
+  "fetched": "2026-10-10T13:15:00Z",
   "post_count": 5,
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
