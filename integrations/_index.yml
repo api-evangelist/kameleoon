@@ -36,31 +36,6 @@
     detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
-- slug: kameleoon-datadog-own
-  label: Datadog (own)
-  partner: datadog
-  partner_name: Datadog (own)
-  category: Configuration & Deployment
-  type: marketplace
-  marketplace: own
-  channel: partner-built
-  evidence: https://github.com/DataDog/integrations-extras/tree/master/kameleoon
-  source: edge
-  relationship: platform-app
-  status: not-a-workflow
-  arazzo: null
-- slug: kameleoon-shopify-own
-  label: Shopify (own)
-  partner: shopify
-  partner_name: Shopify (own)
-  type: marketplace
-  marketplace: own
-  channel: partner-built
-  evidence: https://apps.shopify.com/kameleoon-abtesting-app
-  source: edge
-  relationship: platform-app
-  status: not-a-workflow
-  arazzo: null
 - slug: kameleoon-zapier
   label: Zapier
   partner: zapier
@@ -84,18 +59,6 @@
     app_slug: kameleoon
     beta: false
     builder: unknown (not in the directory record)
-  status: not-a-workflow
-  arazzo: null
-- slug: kameleoon-contentful-own
-  label: Contentful (own)
-  partner: contentful
-  partner_name: Contentful (own)
-  type: marketplace
-  marketplace: own
-  channel: partner-built
-  evidence: https://www.contentful.com/marketplace/kameleoon/
-  source: edge
-  relationship: platform-app
   status: not-a-workflow
   arazzo: null
 - slug: kameleoon-twilio-segment
@@ -159,4 +122,54 @@
   source: edge
   relationship: ipaas-bridge
   status: pending-partner-spec
+  arazzo: null
+- slug: kameleoon-datadog-own
+  label: Datadog (own)
+  partner: datadog
+  partner_name: Datadog (own)
+  category: Configuration & Deployment
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://github.com/DataDog/integrations-extras/tree/master/kameleoon
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: kameleoon-shopify-own
+  label: Shopify (own)
+  partner: shopify
+  partner_name: Shopify (own)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://apps.shopify.com/kameleoon-abtesting-app
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: kameleoon-contentful-own
+  label: Contentful (own)
+  partner: contentful
+  partner_name: Contentful (own)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://www.contentful.com/marketplace/kameleoon/
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: kameleoon-vercel-own
+  label: Vercel (own)
+  partner: vercel
+  partner_name: Vercel (own)
+  category: Analytics
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://vercel.com/marketplace/kameleoon
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
   arazzo: null
