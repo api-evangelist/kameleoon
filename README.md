@@ -1,4 +1,4 @@
-# Kameleoon (kameleoon)
+# Kameleoon
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,92 +66,138 @@
 
 Kameleoon is an experimentation, personalization, feature flag, and AI-driven optimization platform for product and marketing teams.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/apis.yml)
+**Areas:** Experimentation · A/B Testing · Personalization · Feature Flags · Artificial Intelligence
 
-## Tags
+## Kameleoon on APIs.io
 
-- Experimentation
-- AB Testing
-- Personalization
-- Feature Flags
-- AI
+Everything profiled for Kameleoon is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kameleoon/](https://apis.io/providers/kameleoon/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (6)
 
-- **Created:** 2026-05-08
-- **Modified:** 2026-05-08
+- [Kameleoon Automation API](https://apis.io/apis/kameleoon/kameleoon-automation-api/) — Kameleoon Automation API (REST) for programmatically managing experiments, feature flags, and configuration. Limited to roughly a dozen calls per minute per…
+- [Kameleoon Data API](https://apis.io/apis/kameleoon/kameleoon-data-api/) — Kameleoon Data API (REST) for high-volume server-to-server data exchange — visitor data, custom data, and offline conversions. Designed for millions of…
+- [Kameleoon Product Recommendation API](https://apis.io/apis/kameleoon/kameleoon-recommendation-api/) — Kameleoon Product Recommendation API (REST) for managing product catalogs and serving AI-driven recommendations.
+- [Kameleoon Experiments API](https://apis.io/apis/kameleoon/kameleoon-experiments-api/) — Manage Kameleoon experiments.
+- [Kameleoon Personalizations API](https://apis.io/apis/kameleoon/kameleoon-personalizations-api/) — Manage Kameleoon personalizations.
+- [Kameleoon O Auth API](https://apis.io/apis/kameleoon/kameleoon-oauth-api/) — OAuth 2.0 authorization and token endpoints.
 
-## APIs
+### Published properties
 
-### Kameleoon Automation API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Kameleoon Automation API (REST) for programmatically managing experiments, feature flags, and configuration. Limited to roughly a dozen calls per minute per account.
+#### MCP servers (1)
 
-- **Human URL:** [https://developers.kameleoon.com/apis/automation-api/](https://developers.kameleoon.com/apis/automation-api/)
-- **Base URL:** `https://api.kameleoon.com/automation/v1`
+Model Context Protocol servers that expose the API to agents.
 
-#### Tags
+- [kameleoon](https://apis.io/servers/kameleoon/kameleoon/)
 
-- Experimentation
-- Automation
-- REST
+#### Agentic access (1)
 
-#### Properties
+Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Documentation](https://developers.kameleoon.com/apis/automation-api/)
-- [Postman Collection](collections/kameleoon.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/kameleoon.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+- [Kameleoon Agentic Access](https://apis.io/agentic-access/kameleoon/kameleoon-agentic-access/)
 
-### Kameleoon Data API
+#### Collections (4)
 
-Kameleoon Data API (REST) for high-volume server-to-server data exchange — visitor data, custom data, and offline conversions. Designed for millions of calls per minute.
+Postman and Open Collection request collections.
 
-- **Human URL:** [https://developers.kameleoon.com/apis/data-api/](https://developers.kameleoon.com/apis/data-api/)
-- **Base URL:** `https://data.kameleoon.io`
+- [Kameleoon Automation API](https://apis.io/collections/kameleoon/open-kameleoon/)
+- [Kameleoon Automation Experiments API](https://apis.io/collections/kameleoon/open-kameleoon-experiments-api/)
+- [Kameleoon Automation Experiments OAuth API](https://apis.io/collections/kameleoon/open-kameleoon-oauth-api/)
+- [Kameleoon Automation Experiments Personalizations API](https://apis.io/collections/kameleoon/open-kameleoon-personalizations-api/)
 
-#### Tags
+#### Security (3)
 
-- Experimentation
-- Data
-- REST
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Properties
+- [Kameleoon Authentication](https://apis.io/security/kameleoon/kameleoon-authentication/)
+- [Kameleoon Domain Security](https://apis.io/security/kameleoon/kameleoon-domain-security/)
+- [Kameleoon Trust Center](https://apis.io/security/kameleoon/kameleoon-trust-center/)
 
-- [Documentation](https://developers.kameleoon.com/apis/data-api/)
-- [Postman Collection](collections/kameleoon.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/kameleoon.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+#### OAuth scopes (1)
 
-### Kameleoon Product Recommendation API
+The permissions the API asks for.
 
-Kameleoon Product Recommendation API (REST) for managing product catalogs and serving AI-driven recommendations.
+- [Kameleoon Scopes](https://apis.io/scopes/kameleoon/kameleoon-scopes/)
 
-- **Human URL:** [https://developers.kameleoon.com/apis/recommendation-api/](https://developers.kameleoon.com/apis/recommendation-api/)
-- **Base URL:** `https://api.kameleoon.com/recommendation/v1`
+#### Plans and pricing (1)
 
-#### Tags
+Published plans, tiers and prices.
 
-- Recommendations
-- AI
-- REST
+- [Kameleoon Plans Pricing](https://apis.io/plans/kameleoon/kameleoon-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://developers.kameleoon.com/apis/recommendation-api/)
-- [Postman Collection](collections/kameleoon.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/kameleoon.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+Published request limits.
 
-## Common Properties
+- [Kameleoon Rate Limits](https://apis.io/rate-limits/kameleoon/kameleoon-rate-limits/)
 
-- [GitHub Organization](https://github.com/Kameleoon)
-- [LinkedIn](https://www.linkedin.com/company/kameleoon)
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Kameleoon Finops](https://apis.io/finops/kameleoon/kameleoon-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://www.kameleoon.com/)
 - [Documentation](https://developers.kameleoon.com/apis/automation-api/)
-- [Plans](plans/kameleoon-plans-pricing.yml)
-- [Rate Limits](rate-limits/kameleoon-rate-limits.yml)
-- [Fin Ops](finops/kameleoon-finops.yml)
-- [L L Ms Txt](https://developers.kameleoon.com/llms.txt)
+- [Blog](https://www.kameleoon.com/blog)
+- [GitHub](https://github.com/Kameleoon)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 25.1** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 44.9 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 13.2 |
+
+**Agent readiness 43.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kameleoon/](https://apis.io/providers/kameleoon/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kameleoon: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kameleoon/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
